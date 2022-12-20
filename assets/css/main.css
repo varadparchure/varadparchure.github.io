@@ -3873,17 +3873,32 @@ input, select, textarea {
 		background-attachment: fixed;
 
 		background-image: url("images/timser.gif");
-		background-position: -120px 470px ;
+		background-position: center 470px ;
 		background-repeat: no-repeat;
 		background-size: 90% 50%;
 		background-color: black;
 		background-attachment: scroll;
 
-	}
 
-	#intro background-image{
 
 	}
+
+	#intro {
+            text-align: center;
+            }
+
+            #intro ul {
+
+                          justify-content: center;
+
+                        }
+           #intro h1{
+                        font-size: 5 0px;     }
+
+
+
+
+
 
 		#intro p {
 			font-size: 1.25em;
@@ -3907,28 +3922,28 @@ input, select, textarea {
 
 			@media screen and (max-width: 1629px) {
 
-            				#intro {background-position: -110px 400px ;}
+            				#intro {background-position: center 400px ;}
 
 
             			}
 
             @media screen and (max-width: 1085px) {
 
-                                    			#intro {background-position: -30px 400px ;}
+                                    			#intro {background-position: center 400px ;}
 
 
                                     			}
              /*for small devices*/
             @media screen and (max-width: 737px) {
 
-                                                #intro {background-position: -60px 200px ;}
+                                                #intro {background-position: center 200px ;}
 
 
                                                 }
 
              @media screen and (max-width: 609px) {
 
-                                               #intro {background-position: -20px 220px ;}
+                                               #intro {background-position: center 220px ;}
 
 
                                                }
