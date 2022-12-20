@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3870,10 +3871,18 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
+
+		background-image: url("images/timser.gif");
+		background-position: -120px 470px ;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 90% 50%;
+		background-color: black;
+		background-attachment: scroll;
+
+	}
+
+	#intro background-image{
+
 	}
 
 		#intro p {
@@ -3896,6 +3905,45 @@ input, select, textarea {
 
 			}
 
+			@media screen and (max-width: 1629px) {
+
+            				#intro {background-position: -110px 400px ;}
+
+
+            			}
+
+            @media screen and (max-width: 1085px) {
+
+                                    			#intro {background-position: -30px 400px ;}
+
+
+                                    			}
+             /*for small devices*/
+            @media screen and (max-width: 737px) {
+
+                                                #intro {background-position: -60px 200px ;}
+
+
+                                                }
+
+             @media screen and (max-width: 609px) {
+
+                                               #intro {background-position: -20px 220px ;}
+
+
+                                               }
+
+               @media screen and (max-width: 481px) {
+
+                                               #intro {background-position: center 270px ;
+                                                       }
+
+                                               #intro h1 , h4{
+                                               					text-align: center;
+                                               				}
+
+
+                                               }
 		@media screen and (max-width: 1280px) {
 
 			#intro {
