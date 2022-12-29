@@ -3883,14 +3883,14 @@ input, select, textarea {
 
 	}
 
-     #imgbadge img
+     #imgbadge .bagdeimg
      {
 
-          position: absolute;
-          top: 10px;
-          right: 30px;
-          width: 10%;
-            height: auto;
+          position: absolute !important;
+          top: 10px !important;
+          right: 30px !important;
+          width: 10% !important;
+            height: auto !important;
      }
 
 	#intro {
