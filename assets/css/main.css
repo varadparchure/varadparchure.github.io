@@ -3208,11 +3208,21 @@ input, select, textarea {
 			width: 75em;
 		}
 
+		.wrapper > .video {
+        			padding: 5em 5em 3em 3em ;
+        			max-width: 100%;
+        			width: 75em;
+        		}
+
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
 					padding: 4em 4em 2em 4em ;
 				}
+
+				.wrapper > .video {
+                        			padding: 4em 4em 2em 2em ;
+                        		}
 
 			}
 
@@ -3222,6 +3232,9 @@ input, select, textarea {
 					width: 100%;
 				}
 
+.wrapper > .video {
+					width: 100%;
+				}
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3229,6 +3242,10 @@ input, select, textarea {
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
 				}
+
+				.wrapper > .video {
+                					padding: 3em 2em 1em 1em ;
+                				}
 
 			}
 
@@ -3872,16 +3889,85 @@ input, select, textarea {
 	#intro {
 		background-attachment: fixed;
 
+/*
 		background-image: url("images/timser.gif");
+*/
 		background-position: center 470px ;
 		background-repeat: no-repeat;
 		background-size: 90% 50%;
-		background-color: black;
+		background-color: #030303;
 		background-attachment: scroll;
+
+
+	}
+
+
+
+	#intro .video video
+	{
+		width: 14% !important;
+
+
+        position: absolute;
+           top: 15%;
 
 
 
 	}
+
+	/*responsive video*/
+
+	/*--------------------------------------------------*/
+@media screen and (max-width: 1538px) {
+
+#intro .video video
+{top: 17%
+}
+}
+
+@media screen and (max-width: 1274px) {
+#intro .video video
+{top: 15%
+}
+}
+
+@media screen and (max-width: 1110px) {
+#intro .video video
+{top: 20%
+}
+}
+
+
+@media screen and (max-width: 736px) {
+#intro .video video
+{top: 10%
+}
+}
+
+@media screen and (max-width: 550px) {
+#intro .video video
+{top: 14%
+}
+}
+
+
+@media screen and (max-width: 470px) {
+#intro .video video
+{
+margin-left: auto;
+           margin-right: auto;
+           left: 0;
+           right: 0;
+           text-align: center;
+           top: 4%;
+           width: 28% !important;
+}
+}
+
+
+
+
+
 
      #imgbadge .bagdeimg
      {
@@ -3893,17 +3979,52 @@ input, select, textarea {
             height: auto !important;
      }
 
-	#intro {
-            text-align: center;
+/*headings intro*/
+                #intro .headings
+                {
+                  padding:0px;
+                  margin:0px;
+                }
+
+
+	#intro .heading_main_1 h1 {
+            text-align: left;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            padding:0px;
+            margin:0px;
+
+
             }
+
+            #intro .heading_main_2 h1 {
+                        text-align: left;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 200;
+                        }
 
             #intro ul {
 
-                          justify-content: center;
+                          justify-content: left;
+
 
                         }
-           #intro h1{
-                        font-size: 5 0px;     }
+
+                        #intro ul a{
+
+                       justify-content: left;
+                       font-family: 'Montserrat', sans-serif;
+                       font-weight: 500;
+                      }
+
+
+            #intro h4 {
+
+                                    font-family: 'Montserrat', sans-serif;
+                                                           font-weight: 200;
+
+                              }
+
 
 
 
@@ -3958,7 +4079,7 @@ input, select, textarea {
 
                                                }
 
-               @media screen and (max-width: 481px) {
+               @media screen and (max-width: 470px) {
 
                                                #intro {background-position: center 270px ;
                                                        }
@@ -3966,6 +4087,16 @@ input, select, textarea {
                                                #intro h1 , h4{
                                                					text-align: center;
                                                				}
+
+                                               	#intro .heading_main_1 h1  {
+                                               	text-align: center;
+
+                                               	}
+
+                                               		#intro .heading_main_2 h1  {
+                                                                              text-align: center;
+                                                                               }
+
 
 
                                                }
