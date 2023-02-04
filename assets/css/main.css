@@ -3902,16 +3902,23 @@ input, select, textarea {
 	}
 
 
+#intro .video
+{
+padding-bottom:0px;
+margin-bottom:-2%;
+
+}
+
+#intro .inner
+{
+margin-top:0;
+padding-top:0px;
+}
 
 	#intro .video video
 	{
 		width: 14% !important;
-
-
-        position: absolute;
-           top: 11%;
-
-
+        position: relative;
 
 	}
 
@@ -3968,8 +3975,14 @@ margin-left: auto;
            text-align: center;
            top: 4%;
            width: 28% !important;
+
 }
 
+#intro .video
+{
+ text-align: center;
+
+}
 
 #intro .skills_img
 {
