@@ -3909,7 +3909,7 @@ input, select, textarea {
 
 
         position: absolute;
-           top: 15%;
+           top: 11%;
 
 
 
@@ -3933,10 +3933,16 @@ input, select, textarea {
 
 @media screen and (max-width: 1110px) {
 #intro .video video
-{top: 20%
+{top: 15%
 }
 }
 
+
+@media screen and (max-width: 938px) {
+#intro .video video
+{top: 18%
+}
+}
 
 @media screen and (max-width: 736px) {
 #intro .video video
@@ -3952,6 +3958,7 @@ input, select, textarea {
 
 
 @media screen and (max-width: 470px) {
+
 #intro .video video
 {
 margin-left: auto;
@@ -3962,12 +3969,80 @@ margin-left: auto;
            top: 4%;
            width: 28% !important;
 }
+
+
+#intro .skills_img
+{
+
+ text-align: center;
+
+}
+
+#intro .skills_img img
+{
+           margin-left: auto;
+           margin-right: auto;
+           left: 0;
+           right: 0;
+           text-align: center;
+           top: 4%;
+           width: 6% !important;
+}
+
+}
+
+
+
+#intro .skills_img img
+{
+width:3%;
+margin-left:10px;
+margin-top:11px;
+height:auto;
+
+}
+
+.skills_img
+{
+margin:0;
+padding:0;
 }
 
 
 
 
+/*skills hover*/
 
+.hovertext {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+                          font-weight: 200;
+   font-size:15px;
+
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 0px;
+  padding: 0px 0;
+  transition: opacity 0.3s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
 
      #imgbadge .bagdeimg
      {
