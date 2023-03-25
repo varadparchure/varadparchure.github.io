@@ -3061,12 +3061,20 @@ input, select, textarea {
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: rgba(6, 7, 45, 0.8);
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: rgba(6, 7, 45, 0.5);
 		}
+
+		.spotlights > section:nth-child(4) {
+        			background-color: rgba(6, 7, 45, 0.8);
+        		}
+
+        		.spotlights > section:nth-child(5) {
+                        			background-color: rgba(6, 7, 45, 0.5);
+                        		}
 
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
