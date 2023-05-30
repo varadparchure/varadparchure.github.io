@@ -4083,12 +4083,13 @@ padding:0;
                 }
 
 
-	#intro .heading_main_1 h1 {
+	#intro .heading_main_1 h2 {
             text-align: left;
             font-family: 'Montserrat', sans-serif;
             font-weight: 500;
             padding:0px;
             margin:0px;
+            font-size: 40px;
 
 
             }
@@ -4097,6 +4098,7 @@ padding:0;
                         text-align: left;
                         font-family: 'Montserrat', sans-serif;
                         font-weight: 200;
+
                         }
 
             #intro ul {
@@ -4184,7 +4186,7 @@ padding:0;
                                                					text-align: center;
                                                				}
 
-                                               	#intro .heading_main_1 h1  {
+                                               	#intro .heading_main_1 h2  {
                                                	text-align: center;
 
                                                	}
