@@ -5,7 +5,7 @@
 */
 
 
-anime.timeline({loop: true})
+/*anime.timeline({loop: true})
   .add({
     targets: '.inner .heading_main_1',
     scale: [14,1],
@@ -35,7 +35,9 @@ anime.timeline({loop: true})
       duration: 1000,
       easing: "easeOutExpo",
       delay: 100011
-    });
+    });*/
+
+
 
 
 (function($) {
@@ -61,7 +63,7 @@ anime.timeline({loop: true})
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+			}, 200);
 		});
 
 	// Forms.
