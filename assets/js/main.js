@@ -4,6 +4,40 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.inner .heading_main_1',
+    scale: [14,1],
+    opacity: [0,1],
+    easing: "easeOutCirc",
+    duration: 800,
+    delay: (el, i) => 800 * i
+  }).add({
+    targets: '.heading_main_1',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 100011
+  });
+
+  anime.timeline({loop: true})
+    .add({
+      targets: '.inner .heading_main_2',
+      scale: [14,1],
+      opacity: [0,1],
+      easing: "easeOutCirc",
+      duration: 1400,
+      delay: (el, i) => 800 * i
+    }).add({
+      targets: '.heading_main_2',
+      opacity: 0,
+      duration: 1000,
+      easing: "easeOutExpo",
+      delay: 100011
+    });
+
+
 (function($) {
 
 	var	$window = $(window),
