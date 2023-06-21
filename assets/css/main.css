@@ -3263,7 +3263,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #1b1136;
+			background-color: #2a2b5a;
 		}
 
 		.wrapper.style1-alt {
@@ -4317,9 +4317,9 @@ text-align: center;
                                                                                                                  }
 
                                               #intro .heading_main_2 h1  {
-                                               font-size: 45px;
+                                               font-size: 40px;
                                                text-align: center;
-                                               white-space: nowrap;
+                                               white-space: ;
 
 
                                                                                                                                      }
